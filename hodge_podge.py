@@ -15,7 +15,7 @@ def is_leap_year(x):
 	else:
 		print("False")
 
-is_leap_year(1979)
+is_leap_year(2016)
 
 def determine_quadrant(x, y):
 	if(x == 0 and y == 0):
