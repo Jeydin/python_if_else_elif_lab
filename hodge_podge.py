@@ -55,4 +55,4 @@ def calc_federal_income_tax(x):
 	elif(x >= 413201):
 		pass
 
-calc_federal_income_tax(20000)
+calc_federal_income_tax(5000)
