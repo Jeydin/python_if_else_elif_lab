@@ -4,7 +4,7 @@ def is_multiple_of(x, y):
 	else:
 		return "False"
 
-# print(is_multiple_of(12, 5))
+print(is_multiple_of(12, 5))
 
 def is_leap_year(x):
 	if(x % 100 == 0):
@@ -39,7 +39,7 @@ def determine_quadrant(x, y):
 	elif(x == 0 and y < 0):
 		return "- y-axis"
 
-# print(determine_quadrant(3, 0))
+print(determine_quadrant(3, 0))
 
 def calc_federal_income_tax(x):
 	if(x >= 0 and x <= 9225):
@@ -57,4 +57,4 @@ def calc_federal_income_tax(x):
 	elif(x >= 413201):
 		return 119996.25 + (x - 413200) * .396
 
-# print(calc_federal_income_tax(50000))
+print(calc_federal_income_tax(50000))
